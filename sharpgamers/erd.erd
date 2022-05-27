@@ -1,0 +1,529 @@
+ï»¿<?xml version="1.0" encoding="UTF-8"?>
+<DBMODEL Version="4.0">
+<SETTINGS>
+<GLOBALSETTINGS ModelName="erd" IDModel="0" IDVersion="0" VersionStr="1.0.0.0" Comments="" UseVersionHistroy="1" AutoIncVersion="1" DatabaseType="Oracle" ZoomFac="100.00" XPos="0" YPos="20" DefaultDataType="INT" DefaultTablePrefix="0" DefSaveDBConn="" DefSyncDBConn="" DefQueryDBConn="" Printer="" HPageCount="4.0" PageAspectRatio="1.440892512336408" PageOrientation="1" PageFormat="A4 (210x297 mm, 8.26x11.7 inches)" SelectedPages="" UsePositionGrid="0" PositionGridX="20" PositionGridY="20" TableNameInRefs="0" ActivateRefDefForNewRelations="0" FKPrefix="" FKPostfix="" CreateFKRefDefIndex="0" DBQuoteCharacter="`" CreateSQLforLinkedObjects="0" DefModelFont="Tahoma" CanvasWidth="4096" CanvasHeight="2842" ERDFileName="" TFSPath="" USERID="" USERNAME="" CONNINFOHASHCODEB="" IsTBLView_LogTblNM="1" IsTBLView_ConnInfo="0" CVINFO0="tblCVpColName" CVINFO1="tblCVDataType" CVINFO2="tblCVNone" CVINFO3="tblCVNone" CVINFO4="tblCVNone" CVINFO5="tblCVNone" CVINFO6="tblCVNone" CVINFO7="tblCVNone" CVINFO8="tblCVNone" CVINFO9="tblCVNone" CVINFO10="tblCVNone" />
+<DATATYPEGROUPS>
+</DATATYPEGROUPS>
+<DATATYPES>
+</DATATYPES>
+<TABLEPREFIXES>
+<TABLEPREFIX Name="Default (no prefix)" />
+</TABLEPREFIXES>
+<REGIONCOLORS>
+<REGIONCOLOR Color="Red=#FFEEEC" />
+<REGIONCOLOR Color="Yellow=#FEFDED" />
+<REGIONCOLOR Color="Green=#EAFFE5" />
+<REGIONCOLOR Color="ÀÚÁÖ»ö=#ECFDFF" />
+<REGIONCOLOR Color="Blue=#F0F1FE" />
+<REGIONCOLOR Color="¹àÀºÆÄ¶û=#E0EBFF" />
+</REGIONCOLORS>
+<POSITIONMARKERS>
+<POSITIONMARKER ZoomFac="-1.0" X="0" Y="0" />
+<POSITIONMARKER ZoomFac="-1.0" X="0" Y="0" />
+<POSITIONMARKER ZoomFac="-1.0" X="0" Y="0" />
+<POSITIONMARKER ZoomFac="-1.0" X="0" Y="0" />
+<POSITIONMARKER ZoomFac="-1.0" X="0" Y="0" />
+<POSITIONMARKER ZoomFac="-1.0" X="0" Y="0" />
+<POSITIONMARKER ZoomFac="-1.0" X="0" Y="0" />
+<POSITIONMARKER ZoomFac="-1.0" X="0" Y="0" />
+<POSITIONMARKER ZoomFac="-1.0" X="0" Y="0" />
+<POSITIONMARKER ZoomFac="-1.0" X="0" Y="0" />
+<POSITIONMARKER ZoomFac="-1.0" X="0" Y="0" />
+</POSITIONMARKERS>
+<DBCONNECTIONINFOS>
+</DBCONNECTIONINFOS>
+</SETTINGS>
+<METADATA>
+<CUSTOMSCRIPT>
+
+</CUSTOMSCRIPT>
+<REGIONS>
+</REGIONS>
+<TABLES>
+<TABLE ID="1000" SchemaName="C##PJ1" Tablename="BBS_GAMES" LogicalTableName="" IsLogicalTableNameView="1" PrevTableName="" XPos="13" YPos="566" TableType="0" TablePrefix="0" nmTable="0" Temporary="0" UseStandardInserts="0" StandardInserts="" TableOptions="" Comments="" Collapsed="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="2" ConnInfoHashCodeB="" CVINFO0="tblCVpColName" CVINFO1="tblCVDataType" CVINFO2="tblCVNone" CVINFO3="tblCVNone" CVINFO4="tblCVNone" CVINFO5="tblCVNone" CVINFO6="tblCVNone" CVINFO7="tblCVNone" CVINFO8="tblCVNone" CVINFO9="tblCVNone" CVINFO10="tblCVNone" PKName="" >
+<COLUMNS>
+<COLUMN ID="1679" ColName="BBS_NUM" LogicalName="" PrevColName="" Pos="0" idDatatype="NUMBER" DatatypeParams="(0)" Width="0" Prec="0" PrimaryKey="1" NotNull="1" AutoInc="0" Seed="1" Increment="1" IsForeignKey="0" DefaultValue="" Collation="" Check="" Comments="" Length="0" Precision="0" Scale="0" >
+<OPTIONSELECTED>
+</OPTIONSELECTED>
+</COLUMN>
+<COLUMN ID="1680" ColName="BBS_WRITER" LogicalName="" PrevColName="" Pos="0" idDatatype="VARCHAR2" DatatypeParams="(30)" Width="0" Prec="0" PrimaryKey="0" NotNull="1" AutoInc="0" Seed="1" Increment="1" IsForeignKey="0" DefaultValue="" Collation="" Check="" Comments="" Length="30" Precision="0" Scale="0" >
+<OPTIONSELECTED>
+</OPTIONSELECTED>
+</COLUMN>
+<COLUMN ID="1681" ColName="WRITER_ID" LogicalName="" PrevColName="" Pos="0" idDatatype="NUMBER" DatatypeParams="(0)" Width="0" Prec="0" PrimaryKey="0" NotNull="1" AutoInc="0" Seed="1" Increment="1" IsForeignKey="0" DefaultValue="" Collation="" Check="" Comments="" Length="0" Precision="0" Scale="0" >
+<OPTIONSELECTED>
+</OPTIONSELECTED>
+</COLUMN>
+<COLUMN ID="1682" ColName="BBS_SUBJECT" LogicalName="" PrevColName="" Pos="0" idDatatype="VARCHAR2" DatatypeParams="(100)" Width="0" Prec="0" PrimaryKey="0" NotNull="1" AutoInc="0" Seed="1" Increment="1" IsForeignKey="0" DefaultValue="" Collation="" Check="" Comments="" Length="100" Precision="0" Scale="0" >
+<OPTIONSELECTED>
+</OPTIONSELECTED>
+</COLUMN>
+<COLUMN ID="1683" ColName="BBS_CONTENT" LogicalName="" PrevColName="" Pos="0" idDatatype="VARCHAR2" DatatypeParams="(2000)" Width="0" Prec="0" PrimaryKey="0" NotNull="1" AutoInc="0" Seed="1" Increment="1" IsForeignKey="0" DefaultValue="" Collation="" Check="" Comments="" Length="2000" Precision="0" Scale="0" >
+<OPTIONSELECTED>
+</OPTIONSELECTED>
+</COLUMN>
+<COLUMN ID="1684" ColName="REG_DATE" LogicalName="" PrevColName="" Pos="0" idDatatype="DATE" DatatypeParams="(7)" Width="0" Prec="0" PrimaryKey="0" NotNull="0" AutoInc="0" Seed="1" Increment="1" IsForeignKey="0" DefaultValue="sysdate" Collation="" Check="" Comments="" Length="7" Precision="0" Scale="0" >
+<OPTIONSELECTED>
+</OPTIONSELECTED>
+</COLUMN>
+<COLUMN ID="1685" ColName="READCOUNT" LogicalName="" PrevColName="" Pos="0" idDatatype="NUMBER" DatatypeParams="(0)" Width="0" Prec="0" PrimaryKey="0" NotNull="0" AutoInc="0" Seed="1" Increment="1" IsForeignKey="0" DefaultValue="0" Collation="" Check="" Comments="" Length="0" Precision="0" Scale="0" >
+<OPTIONSELECTED>
+</OPTIONSELECTED>
+</COLUMN>
+<COLUMN ID="1686" ColName="LIKES" LogicalName="" PrevColName="" Pos="0" idDatatype="NUMBER" DatatypeParams="(0)" Width="0" Prec="0" PrimaryKey="0" NotNull="0" AutoInc="0" Seed="1" Increment="1" IsForeignKey="0" DefaultValue="0" Collation="" Check="" Comments="" Length="0" Precision="0" Scale="0" >
+<OPTIONSELECTED>
+</OPTIONSELECTED>
+</COLUMN>
+<COLUMN ID="1687" ColName="LIKED_USERS" LogicalName="" PrevColName="" Pos="0" idDatatype="VARCHAR2" DatatypeParams="(4000)" Width="0" Prec="0" PrimaryKey="0" NotNull="0" AutoInc="0" Seed="1" Increment="1" IsForeignKey="0" DefaultValue="':'" Collation="" Check="" Comments="" Length="4000" Precision="0" Scale="0" >
+<OPTIONSELECTED>
+</OPTIONSELECTED>
+</COLUMN>
+<COLUMN ID="1688" ColName="GAME_ID" LogicalName="" PrevColName="" Pos="0" idDatatype="NUMBER" DatatypeParams="(0)" Width="0" Prec="0" PrimaryKey="0" NotNull="0" AutoInc="0" Seed="1" Increment="1" IsForeignKey="0" DefaultValue="" Collation="" Check="" Comments="" Length="0" Precision="0" Scale="0" >
+<OPTIONSELECTED>
+</OPTIONSELECTED>
+</COLUMN>
+</COLUMNS>
+<RELATIONS_START>
+<RELATION_START ID="1029" />
+</RELATIONS_START>
+<RELATIONS_END>
+<RELATION_END ID="1149" />
+<RELATION_END ID="1150" />
+</RELATIONS_END>
+<INDICES>
+<INDEX ID="1606" IndexName="PRIMARY" IndexKind="0" FKRefDef_Obj_id="-1">
+<INDEXCOLUMNS>
+<INDEXCOLUMN idColumn="1596" LengthParam="0" />
+<INDEXCOLUMN idColumn="1605" LengthParam="0" />
+</INDEXCOLUMNS>
+</INDEX>
+</INDICES>
+</TABLE>
+<TABLE ID="1011" SchemaName="C##PJ1" Tablename="BBS_GUILDS" LogicalTableName="" IsLogicalTableNameView="1" PrevTableName="" XPos="664" YPos="595" TableType="0" TablePrefix="0" nmTable="0" Temporary="0" UseStandardInserts="0" StandardInserts="" TableOptions="" Comments="" Collapsed="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="3" ConnInfoHashCodeB="" CVINFO0="tblCVpColName" CVINFO1="tblCVDataType" CVINFO2="tblCVNone" CVINFO3="tblCVNone" CVINFO4="tblCVNone" CVINFO5="tblCVNone" CVINFO6="tblCVNone" CVINFO7="tblCVNone" CVINFO8="tblCVNone" CVINFO9="tblCVNone" CVINFO10="tblCVNone" PKName="" >
+<COLUMNS>
+<COLUMN ID="1669" ColName="BBS_NUM" LogicalName="" PrevColName="" Pos="0" idDatatype="NUMBER" DatatypeParams="(0)" Width="0" Prec="0" PrimaryKey="1" NotNull="1" AutoInc="0" Seed="1" Increment="1" IsForeignKey="0" DefaultValue="" Collation="" Check="" Comments="" Length="0" Precision="0" Scale="0" >
+<OPTIONSELECTED>
+</OPTIONSELECTED>
+</COLUMN>
+<COLUMN ID="1670" ColName="BBS_WRITER" LogicalName="" PrevColName="" Pos="0" idDatatype="VARCHAR2" DatatypeParams="(30)" Width="0" Prec="0" PrimaryKey="0" NotNull="1" AutoInc="0" Seed="1" Increment="1" IsForeignKey="0" DefaultValue="" Collation="" Check="" Comments="" Length="30" Precision="0" Scale="0" >
+<OPTIONSELECTED>
+</OPTIONSELECTED>
+</COLUMN>
+<COLUMN ID="1671" ColName="WRITER_ID" LogicalName="" PrevColName="" Pos="0" idDatatype="NUMBER" DatatypeParams="(0)" Width="0" Prec="0" PrimaryKey="0" NotNull="1" AutoInc="0" Seed="1" Increment="1" IsForeignKey="0" DefaultValue="" Collation="" Check="" Comments="" Length="0" Precision="0" Scale="0" >
+<OPTIONSELECTED>
+</OPTIONSELECTED>
+</COLUMN>
+<COLUMN ID="1672" ColName="BBS_SUBJECT" LogicalName="" PrevColName="" Pos="0" idDatatype="VARCHAR2" DatatypeParams="(100)" Width="0" Prec="0" PrimaryKey="0" NotNull="1" AutoInc="0" Seed="1" Increment="1" IsForeignKey="0" DefaultValue="" Collation="" Check="" Comments="" Length="100" Precision="0" Scale="0" >
+<OPTIONSELECTED>
+</OPTIONSELECTED>
+</COLUMN>
+<COLUMN ID="1673" ColName="BBS_CONTENT" LogicalName="" PrevColName="" Pos="0" idDatatype="VARCHAR2" DatatypeParams="(2000)" Width="0" Prec="0" PrimaryKey="0" NotNull="1" AutoInc="0" Seed="1" Increment="1" IsForeignKey="0" DefaultValue="" Collation="" Check="" Comments="" Length="2000" Precision="0" Scale="0" >
+<OPTIONSELECTED>
+</OPTIONSELECTED>
+</COLUMN>
+<COLUMN ID="1674" ColName="REG_DATE" LogicalName="" PrevColName="" Pos="0" idDatatype="DATE" DatatypeParams="(7)" Width="0" Prec="0" PrimaryKey="0" NotNull="0" AutoInc="0" Seed="1" Increment="1" IsForeignKey="0" DefaultValue="sysdate" Collation="" Check="" Comments="" Length="7" Precision="0" Scale="0" >
+<OPTIONSELECTED>
+</OPTIONSELECTED>
+</COLUMN>
+<COLUMN ID="1675" ColName="READCOUNT" LogicalName="" PrevColName="" Pos="0" idDatatype="NUMBER" DatatypeParams="(0)" Width="0" Prec="0" PrimaryKey="0" NotNull="0" AutoInc="0" Seed="1" Increment="1" IsForeignKey="0" DefaultValue="0" Collation="" Check="" Comments="" Length="0" Precision="0" Scale="0" >
+<OPTIONSELECTED>
+</OPTIONSELECTED>
+</COLUMN>
+<COLUMN ID="1676" ColName="LIKES" LogicalName="" PrevColName="" Pos="0" idDatatype="NUMBER" DatatypeParams="(0)" Width="0" Prec="0" PrimaryKey="0" NotNull="0" AutoInc="0" Seed="1" Increment="1" IsForeignKey="0" DefaultValue="0" Collation="" Check="" Comments="" Length="0" Precision="0" Scale="0" >
+<OPTIONSELECTED>
+</OPTIONSELECTED>
+</COLUMN>
+<COLUMN ID="1677" ColName="LIKED_USERS" LogicalName="" PrevColName="" Pos="0" idDatatype="VARCHAR2" DatatypeParams="(4000)" Width="0" Prec="0" PrimaryKey="0" NotNull="0" AutoInc="0" Seed="1" Increment="1" IsForeignKey="0" DefaultValue="':'" Collation="" Check="" Comments="" Length="4000" Precision="0" Scale="0" >
+<OPTIONSELECTED>
+</OPTIONSELECTED>
+</COLUMN>
+<COLUMN ID="1678" ColName="GUILD_ID" LogicalName="" PrevColName="" Pos="0" idDatatype="NUMBER" DatatypeParams="(0)" Width="0" Prec="0" PrimaryKey="0" NotNull="0" AutoInc="0" Seed="1" Increment="1" IsForeignKey="0" DefaultValue="" Collation="" Check="" Comments="" Length="0" Precision="0" Scale="0" >
+<OPTIONSELECTED>
+</OPTIONSELECTED>
+</COLUMN>
+</COLUMNS>
+<RELATIONS_START>
+<RELATION_START ID="1037" />
+</RELATIONS_START>
+<RELATIONS_END>
+<RELATION_END ID="1137" />
+<RELATION_END ID="1138" />
+</RELATIONS_END>
+<INDICES>
+<INDEX ID="1607" IndexName="PRIMARY" IndexKind="0" FKRefDef_Obj_id="-1">
+<INDEXCOLUMNS>
+<INDEXCOLUMN idColumn="1586" LengthParam="0" />
+<INDEXCOLUMN idColumn="1595" LengthParam="0" />
+</INDEXCOLUMNS>
+</INDEX>
+</INDICES>
+</TABLE>
+<TABLE ID="1022" SchemaName="C##PJ1" Tablename="COMMENTS_GAMES" LogicalTableName="" IsLogicalTableNameView="1" PrevTableName="" XPos="395" YPos="623" TableType="0" TablePrefix="0" nmTable="0" Temporary="0" UseStandardInserts="0" StandardInserts="" TableOptions="" Comments="" Collapsed="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="4" ConnInfoHashCodeB="" CVINFO0="tblCVpColName" CVINFO1="tblCVDataType" CVINFO2="tblCVNone" CVINFO3="tblCVNone" CVINFO4="tblCVNone" CVINFO5="tblCVNone" CVINFO6="tblCVNone" CVINFO7="tblCVNone" CVINFO8="tblCVNone" CVINFO9="tblCVNone" CVINFO10="tblCVNone" PKName="" >
+<COLUMNS>
+<COLUMN ID="1663" ColName="COMMENT_ID" LogicalName="" PrevColName="" Pos="0" idDatatype="NUMBER" DatatypeParams="(0)" Width="0" Prec="0" PrimaryKey="1" NotNull="1" AutoInc="0" Seed="1" Increment="1" IsForeignKey="0" DefaultValue="" Collation="" Check="" Comments="" Length="0" Precision="0" Scale="0" >
+<OPTIONSELECTED>
+</OPTIONSELECTED>
+</COLUMN>
+<COLUMN ID="1664" ColName="WRITER" LogicalName="" PrevColName="" Pos="0" idDatatype="VARCHAR2" DatatypeParams="(30)" Width="0" Prec="0" PrimaryKey="0" NotNull="1" AutoInc="0" Seed="1" Increment="1" IsForeignKey="0" DefaultValue="" Collation="" Check="" Comments="" Length="30" Precision="0" Scale="0" >
+<OPTIONSELECTED>
+</OPTIONSELECTED>
+</COLUMN>
+<COLUMN ID="1665" ColName="WRITER_ID" LogicalName="" PrevColName="" Pos="0" idDatatype="NUMBER" DatatypeParams="(0)" Width="0" Prec="0" PrimaryKey="0" NotNull="1" AutoInc="0" Seed="1" Increment="1" IsForeignKey="0" DefaultValue="" Collation="" Check="" Comments="" Length="0" Precision="0" Scale="0" >
+<OPTIONSELECTED>
+</OPTIONSELECTED>
+</COLUMN>
+<COLUMN ID="1666" ColName="CONTENT" LogicalName="" PrevColName="" Pos="0" idDatatype="VARCHAR2" DatatypeParams="(4000)" Width="0" Prec="0" PrimaryKey="0" NotNull="1" AutoInc="0" Seed="1" Increment="1" IsForeignKey="0" DefaultValue="" Collation="" Check="" Comments="" Length="4000" Precision="0" Scale="0" >
+<OPTIONSELECTED>
+</OPTIONSELECTED>
+</COLUMN>
+<COLUMN ID="1667" ColName="BBS_NUM" LogicalName="" PrevColName="" Pos="0" idDatatype="NUMBER" DatatypeParams="(0)" Width="0" Prec="0" PrimaryKey="0" NotNull="1" AutoInc="0" Seed="1" Increment="1" IsForeignKey="0" DefaultValue="" Collation="" Check="" Comments="" Length="0" Precision="0" Scale="0" >
+<OPTIONSELECTED>
+</OPTIONSELECTED>
+</COLUMN>
+<COLUMN ID="1668" ColName="REG_DATE" LogicalName="" PrevColName="" Pos="0" idDatatype="DATE" DatatypeParams="(7)" Width="0" Prec="0" PrimaryKey="0" NotNull="0" AutoInc="0" Seed="1" Increment="1" IsForeignKey="0" DefaultValue="sysdate" Collation="" Check="" Comments="" Length="7" Precision="0" Scale="0" >
+<OPTIONSELECTED>
+</OPTIONSELECTED>
+</COLUMN>
+</COLUMNS>
+<RELATIONS_END>
+<RELATION_END ID="1029" />
+<RELATION_END ID="1126" />
+</RELATIONS_END>
+<INDICES>
+<INDEX ID="1608" IndexName="PRIMARY" IndexKind="0" FKRefDef_Obj_id="-1">
+<INDEXCOLUMNS>
+<INDEXCOLUMN idColumn="1580" LengthParam="0" />
+<INDEXCOLUMN idColumn="1584" LengthParam="0" />
+</INDEXCOLUMNS>
+</INDEX>
+</INDICES>
+</TABLE>
+<TABLE ID="1030" SchemaName="C##PJ1" Tablename="COMMENTS_GUILDS" LogicalTableName="" IsLogicalTableNameView="1" PrevTableName="" XPos="1072" YPos="605" TableType="0" TablePrefix="0" nmTable="0" Temporary="0" UseStandardInserts="0" StandardInserts="" TableOptions="" Comments="" Collapsed="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="6" ConnInfoHashCodeB="" CVINFO0="tblCVpColName" CVINFO1="tblCVDataType" CVINFO2="tblCVNone" CVINFO3="tblCVNone" CVINFO4="tblCVNone" CVINFO5="tblCVNone" CVINFO6="tblCVNone" CVINFO7="tblCVNone" CVINFO8="tblCVNone" CVINFO9="tblCVNone" CVINFO10="tblCVNone" PKName="" >
+<COLUMNS>
+<COLUMN ID="1657" ColName="COMMENT_ID" LogicalName="" PrevColName="" Pos="0" idDatatype="NUMBER" DatatypeParams="(0)" Width="0" Prec="0" PrimaryKey="1" NotNull="1" AutoInc="0" Seed="1" Increment="1" IsForeignKey="0" DefaultValue="" Collation="" Check="" Comments="" Length="0" Precision="0" Scale="0" >
+<OPTIONSELECTED>
+</OPTIONSELECTED>
+</COLUMN>
+<COLUMN ID="1658" ColName="WRITER" LogicalName="" PrevColName="" Pos="0" idDatatype="VARCHAR2" DatatypeParams="(30)" Width="0" Prec="0" PrimaryKey="0" NotNull="1" AutoInc="0" Seed="1" Increment="1" IsForeignKey="0" DefaultValue="" Collation="" Check="" Comments="" Length="30" Precision="0" Scale="0" >
+<OPTIONSELECTED>
+</OPTIONSELECTED>
+</COLUMN>
+<COLUMN ID="1659" ColName="WRITER_ID" LogicalName="" PrevColName="" Pos="0" idDatatype="NUMBER" DatatypeParams="(0)" Width="0" Prec="0" PrimaryKey="0" NotNull="1" AutoInc="0" Seed="1" Increment="1" IsForeignKey="0" DefaultValue="" Collation="" Check="" Comments="" Length="0" Precision="0" Scale="0" >
+<OPTIONSELECTED>
+</OPTIONSELECTED>
+</COLUMN>
+<COLUMN ID="1660" ColName="CONTENT" LogicalName="" PrevColName="" Pos="0" idDatatype="VARCHAR2" DatatypeParams="(4000)" Width="0" Prec="0" PrimaryKey="0" NotNull="1" AutoInc="0" Seed="1" Increment="1" IsForeignKey="0" DefaultValue="" Collation="" Check="" Comments="" Length="4000" Precision="0" Scale="0" >
+<OPTIONSELECTED>
+</OPTIONSELECTED>
+</COLUMN>
+<COLUMN ID="1661" ColName="BBS_NUM" LogicalName="" PrevColName="" Pos="0" idDatatype="NUMBER" DatatypeParams="(0)" Width="0" Prec="0" PrimaryKey="0" NotNull="1" AutoInc="0" Seed="1" Increment="1" IsForeignKey="0" DefaultValue="" Collation="" Check="" Comments="" Length="0" Precision="0" Scale="0" >
+<OPTIONSELECTED>
+</OPTIONSELECTED>
+</COLUMN>
+<COLUMN ID="1662" ColName="REG_DATE" LogicalName="" PrevColName="" Pos="0" idDatatype="DATE" DatatypeParams="(7)" Width="0" Prec="0" PrimaryKey="0" NotNull="0" AutoInc="0" Seed="1" Increment="1" IsForeignKey="0" DefaultValue="sysdate" Collation="" Check="" Comments="" Length="7" Precision="0" Scale="0" >
+<OPTIONSELECTED>
+</OPTIONSELECTED>
+</COLUMN>
+</COLUMNS>
+<RELATIONS_END>
+<RELATION_END ID="1037" />
+<RELATION_END ID="1119" />
+</RELATIONS_END>
+<INDICES>
+<INDEX ID="1609" IndexName="PRIMARY" IndexKind="0" FKRefDef_Obj_id="-1">
+<INDEXCOLUMNS>
+<INDEXCOLUMN idColumn="1574" LengthParam="0" />
+<INDEXCOLUMN idColumn="1578" LengthParam="0" />
+</INDEXCOLUMNS>
+</INDEX>
+</INDICES>
+</TABLE>
+<TABLE ID="1038" SchemaName="C##PJ1" Tablename="GAMES" LogicalTableName="" IsLogicalTableNameView="1" PrevTableName="" XPos="12" YPos="211" TableType="0" TablePrefix="0" nmTable="0" Temporary="0" UseStandardInserts="0" StandardInserts="" TableOptions="" Comments="" Collapsed="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="8" ConnInfoHashCodeB="" CVINFO0="tblCVpColName" CVINFO1="tblCVDataType" CVINFO2="tblCVNone" CVINFO3="tblCVNone" CVINFO4="tblCVNone" CVINFO5="tblCVNone" CVINFO6="tblCVNone" CVINFO7="tblCVNone" CVINFO8="tblCVNone" CVINFO9="tblCVNone" CVINFO10="tblCVNone" PKName="" >
+<COLUMNS>
+<COLUMN ID="1652" ColName="GAME_ID" LogicalName="" PrevColName="" Pos="0" idDatatype="NUMBER" DatatypeParams="(0)" Width="0" Prec="0" PrimaryKey="1" NotNull="1" AutoInc="0" Seed="1" Increment="1" IsForeignKey="0" DefaultValue="" Collation="" Check="" Comments="" Length="0" Precision="0" Scale="0" >
+<OPTIONSELECTED>
+</OPTIONSELECTED>
+</COLUMN>
+<COLUMN ID="1653" ColName="GAME_PLATFORM" LogicalName="" PrevColName="" Pos="0" idDatatype="VARCHAR2" DatatypeParams="(10)" Width="0" Prec="0" PrimaryKey="0" NotNull="1" AutoInc="0" Seed="1" Increment="1" IsForeignKey="0" DefaultValue="" Collation="" Check="" Comments="" Length="10" Precision="0" Scale="0" >
+<OPTIONSELECTED>
+</OPTIONSELECTED>
+</COLUMN>
+<COLUMN ID="1654" ColName="GAME_NAME" LogicalName="" PrevColName="" Pos="0" idDatatype="VARCHAR2" DatatypeParams="(200)" Width="0" Prec="0" PrimaryKey="0" NotNull="1" AutoInc="0" Seed="1" Increment="1" IsForeignKey="0" DefaultValue="" Collation="" Check="" Comments="" Length="200" Precision="0" Scale="0" >
+<OPTIONSELECTED>
+</OPTIONSELECTED>
+</COLUMN>
+<COLUMN ID="1655" ColName="GAME_IMG_SRC" LogicalName="" PrevColName="" Pos="0" idDatatype="VARCHAR2" DatatypeParams="(300)" Width="0" Prec="0" PrimaryKey="0" NotNull="0" AutoInc="0" Seed="1" Increment="1" IsForeignKey="0" DefaultValue="" Collation="" Check="" Comments="" Length="300" Precision="0" Scale="0" >
+<OPTIONSELECTED>
+</OPTIONSELECTED>
+</COLUMN>
+<COLUMN ID="1656" ColName="GAME_LINK" LogicalName="" PrevColName="" Pos="0" idDatatype="VARCHAR2" DatatypeParams="(300)" Width="0" Prec="0" PrimaryKey="0" NotNull="0" AutoInc="0" Seed="1" Increment="1" IsForeignKey="0" DefaultValue="" Collation="" Check="" Comments="" Length="300" Precision="0" Scale="0" >
+<OPTIONSELECTED>
+</OPTIONSELECTED>
+</COLUMN>
+</COLUMNS>
+<RELATIONS_START>
+<RELATION_START ID="1053" />
+<RELATION_START ID="1149" />
+</RELATIONS_START>
+<INDICES>
+<INDEX ID="1610" IndexName="PRIMARY" IndexKind="0" FKRefDef_Obj_id="-1">
+<INDEXCOLUMNS>
+<INDEXCOLUMN idColumn="1569" LengthParam="0" />
+</INDEXCOLUMNS>
+</INDEX>
+</INDICES>
+</TABLE>
+<TABLE ID="1044" SchemaName="C##PJ1" Tablename="GUILDS" LogicalTableName="" IsLogicalTableNameView="1" PrevTableName="" XPos="519" YPos="186" TableType="0" TablePrefix="0" nmTable="0" Temporary="0" UseStandardInserts="0" StandardInserts="" TableOptions="" Comments="" Collapsed="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="9" ConnInfoHashCodeB="" CVINFO0="tblCVpColName" CVINFO1="tblCVDataType" CVINFO2="tblCVNone" CVINFO3="tblCVNone" CVINFO4="tblCVNone" CVINFO5="tblCVNone" CVINFO6="tblCVNone" CVINFO7="tblCVNone" CVINFO8="tblCVNone" CVINFO9="tblCVNone" CVINFO10="tblCVNone" PKName="" >
+<COLUMNS>
+<COLUMN ID="1644" ColName="GUILD_ID" LogicalName="" PrevColName="" Pos="0" idDatatype="NUMBER" DatatypeParams="(0)" Width="0" Prec="0" PrimaryKey="1" NotNull="1" AutoInc="0" Seed="1" Increment="1" IsForeignKey="0" DefaultValue="" Collation="" Check="" Comments="" Length="0" Precision="0" Scale="0" >
+<OPTIONSELECTED>
+</OPTIONSELECTED>
+</COLUMN>
+<COLUMN ID="1645" ColName="GUILD_NAME" LogicalName="" PrevColName="" Pos="0" idDatatype="VARCHAR2" DatatypeParams="(30)" Width="0" Prec="0" PrimaryKey="0" NotNull="1" AutoInc="0" Seed="1" Increment="1" IsForeignKey="0" DefaultValue="" Collation="" Check="" Comments="" Length="30" Precision="0" Scale="0" >
+<OPTIONSELECTED>
+</OPTIONSELECTED>
+</COLUMN>
+<COLUMN ID="1646" ColName="GUILD_DESC" LogicalName="" PrevColName="" Pos="0" idDatatype="VARCHAR2" DatatypeParams="(4000)" Width="0" Prec="0" PrimaryKey="0" NotNull="0" AutoInc="0" Seed="1" Increment="1" IsForeignKey="0" DefaultValue="" Collation="" Check="" Comments="" Length="4000" Precision="0" Scale="0" >
+<OPTIONSELECTED>
+</OPTIONSELECTED>
+</COLUMN>
+<COLUMN ID="1647" ColName="GUILD_MASTER_IDX" LogicalName="" PrevColName="" Pos="0" idDatatype="NUMBER" DatatypeParams="(0)" Width="0" Prec="0" PrimaryKey="0" NotNull="1" AutoInc="0" Seed="1" Increment="1" IsForeignKey="0" DefaultValue="" Collation="" Check="" Comments="" Length="0" Precision="0" Scale="0" >
+<OPTIONSELECTED>
+</OPTIONSELECTED>
+</COLUMN>
+<COLUMN ID="1648" ColName="GUILD_MEMBERS_IDX" LogicalName="" PrevColName="" Pos="0" idDatatype="VARCHAR2" DatatypeParams="(4000)" Width="0" Prec="0" PrimaryKey="0" NotNull="0" AutoInc="0" Seed="1" Increment="1" IsForeignKey="0" DefaultValue="':'" Collation="" Check="" Comments="" Length="4000" Precision="0" Scale="0" >
+<OPTIONSELECTED>
+</OPTIONSELECTED>
+</COLUMN>
+<COLUMN ID="1649" ColName="GUILD_JOIN_WAITING_IDX" LogicalName="" PrevColName="" Pos="0" idDatatype="VARCHAR2" DatatypeParams="(4000)" Width="0" Prec="0" PrimaryKey="0" NotNull="0" AutoInc="0" Seed="1" Increment="1" IsForeignKey="0" DefaultValue="':'" Collation="" Check="" Comments="" Length="4000" Precision="0" Scale="0" >
+<OPTIONSELECTED>
+</OPTIONSELECTED>
+</COLUMN>
+<COLUMN ID="1650" ColName="GUILD_REG_DATE" LogicalName="" PrevColName="" Pos="0" idDatatype="DATE" DatatypeParams="(7)" Width="0" Prec="0" PrimaryKey="0" NotNull="0" AutoInc="0" Seed="1" Increment="1" IsForeignKey="0" DefaultValue="sysdate" Collation="" Check="" Comments="" Length="7" Precision="0" Scale="0" >
+<OPTIONSELECTED>
+</OPTIONSELECTED>
+</COLUMN>
+<COLUMN ID="1651" ColName="GAME_ID" LogicalName="" PrevColName="" Pos="0" idDatatype="NUMBER" DatatypeParams="(0)" Width="0" Prec="0" PrimaryKey="0" NotNull="1" AutoInc="0" Seed="1" Increment="1" IsForeignKey="0" DefaultValue="" Collation="" Check="" Comments="" Length="0" Precision="0" Scale="0" >
+<OPTIONSELECTED>
+</OPTIONSELECTED>
+</COLUMN>
+</COLUMNS>
+<RELATIONS_START>
+<RELATION_START ID="1138" />
+<RELATION_START ID="1623" />
+</RELATIONS_START>
+<RELATIONS_END>
+<RELATION_END ID="1053" />
+</RELATIONS_END>
+<INDICES>
+<INDEX ID="1611" IndexName="PRIMARY" IndexKind="0" FKRefDef_Obj_id="-1">
+<INDEXCOLUMNS>
+<INDEXCOLUMN idColumn="1561" LengthParam="0" />
+<INDEXCOLUMN idColumn="1568" LengthParam="0" />
+</INDEXCOLUMNS>
+</INDEX>
+</INDICES>
+</TABLE>
+<TABLE ID="1062" SchemaName="C##PJ1" Tablename="MEMBERS" LogicalTableName="" IsLogicalTableNameView="1" PrevTableName="" XPos="253" YPos="28" TableType="0" TablePrefix="0" nmTable="0" Temporary="0" UseStandardInserts="0" StandardInserts="" TableOptions="" Comments="" Collapsed="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="13" ConnInfoHashCodeB="" CVINFO0="tblCVpColName" CVINFO1="tblCVDataType" CVINFO2="tblCVNone" CVINFO3="tblCVNone" CVINFO4="tblCVNone" CVINFO5="tblCVNone" CVINFO6="tblCVNone" CVINFO7="tblCVNone" CVINFO8="tblCVNone" CVINFO9="tblCVNone" CVINFO10="tblCVNone" PKName="" >
+<COLUMNS>
+<COLUMN ID="1636" ColName="MEMBER_IDX" LogicalName="" PrevColName="" Pos="0" idDatatype="NUMBER" DatatypeParams="(0)" Width="0" Prec="0" PrimaryKey="1" NotNull="1" AutoInc="0" Seed="1" Increment="1" IsForeignKey="0" DefaultValue="" Collation="" Check="" Comments="" Length="0" Precision="0" Scale="0" >
+<OPTIONSELECTED>
+</OPTIONSELECTED>
+</COLUMN>
+<COLUMN ID="1637" ColName="MEMBER_ID" LogicalName="" PrevColName="" Pos="0" idDatatype="VARCHAR2" DatatypeParams="(50)" Width="0" Prec="0" PrimaryKey="0" NotNull="0" AutoInc="0" Seed="1" Increment="1" IsForeignKey="0" DefaultValue="" Collation="" Check="" Comments="" Length="50" Precision="0" Scale="0" >
+<OPTIONSELECTED>
+</OPTIONSELECTED>
+</COLUMN>
+<COLUMN ID="1638" ColName="MEMBER_PW" LogicalName="" PrevColName="" Pos="0" idDatatype="VARCHAR2" DatatypeParams="(30)" Width="0" Prec="0" PrimaryKey="0" NotNull="1" AutoInc="0" Seed="1" Increment="1" IsForeignKey="0" DefaultValue="" Collation="" Check="" Comments="" Length="30" Precision="0" Scale="0" >
+<OPTIONSELECTED>
+</OPTIONSELECTED>
+</COLUMN>
+<COLUMN ID="1639" ColName="MEMBER_NAME" LogicalName="" PrevColName="" Pos="0" idDatatype="VARCHAR2" DatatypeParams="(30)" Width="0" Prec="0" PrimaryKey="0" NotNull="0" AutoInc="0" Seed="1" Increment="1" IsForeignKey="0" DefaultValue="" Collation="" Check="" Comments="" Length="30" Precision="0" Scale="0" >
+<OPTIONSELECTED>
+</OPTIONSELECTED>
+</COLUMN>
+<COLUMN ID="1640" ColName="PHONE_NO" LogicalName="" PrevColName="" Pos="0" idDatatype="VARCHAR2" DatatypeParams="(20)" Width="0" Prec="0" PrimaryKey="0" NotNull="1" AutoInc="0" Seed="1" Increment="1" IsForeignKey="0" DefaultValue="" Collation="" Check="" Comments="" Length="20" Precision="0" Scale="0" >
+<OPTIONSELECTED>
+</OPTIONSELECTED>
+</COLUMN>
+<COLUMN ID="1641" ColName="MEMBER_AUTH" LogicalName="" PrevColName="" Pos="0" idDatatype="NUMBER" DatatypeParams="(1)" Width="0" Prec="0" PrimaryKey="0" NotNull="0" AutoInc="0" Seed="1" Increment="1" IsForeignKey="0" DefaultValue="0" Collation="" Check="" Comments="" Length="1" Precision="0" Scale="0" >
+<OPTIONSELECTED>
+</OPTIONSELECTED>
+</COLUMN>
+<COLUMN ID="1642" ColName="JOIN_DATE" LogicalName="" PrevColName="" Pos="0" idDatatype="DATE" DatatypeParams="(7)" Width="0" Prec="0" PrimaryKey="0" NotNull="0" AutoInc="0" Seed="1" Increment="1" IsForeignKey="0" DefaultValue="SYSDATE" Collation="" Check="" Comments="" Length="7" Precision="0" Scale="0" >
+<OPTIONSELECTED>
+</OPTIONSELECTED>
+</COLUMN>
+<COLUMN ID="1643" ColName="FAV_GAME" LogicalName="" PrevColName="" Pos="0" idDatatype="VARCHAR2" DatatypeParams="(4000)" Width="0" Prec="0" PrimaryKey="0" NotNull="0" AutoInc="0" Seed="1" Increment="1" IsForeignKey="0" DefaultValue="':'" Collation="" Check="" Comments="" Length="4000" Precision="0" Scale="0" >
+<OPTIONSELECTED>
+</OPTIONSELECTED>
+</COLUMN>
+</COLUMNS>
+<RELATIONS_START>
+<RELATION_START ID="1078" />
+<RELATION_START ID="1079" />
+<RELATION_START ID="1119" />
+<RELATION_START ID="1126" />
+<RELATION_START ID="1137" />
+<RELATION_START ID="1150" />
+<RELATION_START ID="1622" />
+</RELATIONS_START>
+<INDICES>
+<INDEX ID="1613" IndexName="PRIMARY" IndexKind="0" FKRefDef_Obj_id="-1">
+<INDEXCOLUMNS>
+<INDEXCOLUMN idColumn="1547" LengthParam="0" />
+</INDEXCOLUMNS>
+</INDEX>
+</INDICES>
+</TABLE>
+<TABLE ID="1071" SchemaName="C##PJ1" Tablename="MESSAGES" LogicalTableName="" IsLogicalTableNameView="1" PrevTableName="" XPos="1119" YPos="22" TableType="0" TablePrefix="0" nmTable="0" Temporary="0" UseStandardInserts="0" StandardInserts="" TableOptions="" Comments="" Collapsed="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="14" ConnInfoHashCodeB="" CVINFO0="tblCVpColName" CVINFO1="tblCVDataType" CVINFO2="tblCVNone" CVINFO3="tblCVNone" CVINFO4="tblCVNone" CVINFO5="tblCVNone" CVINFO6="tblCVNone" CVINFO7="tblCVNone" CVINFO8="tblCVNone" CVINFO9="tblCVNone" CVINFO10="tblCVNone" PKName="" >
+<COLUMNS>
+<COLUMN ID="1630" ColName="MESSAGE_ID" LogicalName="" PrevColName="" Pos="0" idDatatype="NUMBER" DatatypeParams="(0)" Width="0" Prec="0" PrimaryKey="1" NotNull="1" AutoInc="0" Seed="1" Increment="1" IsForeignKey="0" DefaultValue="" Collation="" Check="" Comments="" Length="0" Precision="0" Scale="0" >
+<OPTIONSELECTED>
+</OPTIONSELECTED>
+</COLUMN>
+<COLUMN ID="1631" ColName="SENDER_ID" LogicalName="" PrevColName="" Pos="0" idDatatype="NUMBER" DatatypeParams="(0)" Width="0" Prec="0" PrimaryKey="0" NotNull="1" AutoInc="0" Seed="1" Increment="1" IsForeignKey="0" DefaultValue="" Collation="" Check="" Comments="" Length="0" Precision="0" Scale="0" >
+<OPTIONSELECTED>
+</OPTIONSELECTED>
+</COLUMN>
+<COLUMN ID="1632" ColName="RECEIVER_ID" LogicalName="" PrevColName="" Pos="0" idDatatype="NUMBER" DatatypeParams="(0)" Width="0" Prec="0" PrimaryKey="0" NotNull="1" AutoInc="0" Seed="1" Increment="1" IsForeignKey="0" DefaultValue="" Collation="" Check="" Comments="" Length="0" Precision="0" Scale="0" >
+<OPTIONSELECTED>
+</OPTIONSELECTED>
+</COLUMN>
+<COLUMN ID="1633" ColName="CONTENT" LogicalName="" PrevColName="" Pos="0" idDatatype="VARCHAR2" DatatypeParams="(4000)" Width="0" Prec="0" PrimaryKey="0" NotNull="1" AutoInc="0" Seed="1" Increment="1" IsForeignKey="0" DefaultValue="" Collation="" Check="" Comments="" Length="4000" Precision="0" Scale="0" >
+<OPTIONSELECTED>
+</OPTIONSELECTED>
+</COLUMN>
+<COLUMN ID="1634" ColName="SENT_DATE" LogicalName="" PrevColName="" Pos="0" idDatatype="DATE" DatatypeParams="(7)" Width="0" Prec="0" PrimaryKey="0" NotNull="0" AutoInc="0" Seed="1" Increment="1" IsForeignKey="0" DefaultValue="sysdate" Collation="" Check="" Comments="" Length="7" Precision="0" Scale="0" >
+<OPTIONSELECTED>
+</OPTIONSELECTED>
+</COLUMN>
+<COLUMN ID="1635" ColName="HAVE_READ" LogicalName="" PrevColName="" Pos="0" idDatatype="NUMBER" DatatypeParams="(0)" Width="0" Prec="0" PrimaryKey="0" NotNull="0" AutoInc="0" Seed="1" Increment="1" IsForeignKey="0" DefaultValue="0" Collation="" Check="" Comments="" Length="0" Precision="0" Scale="0" >
+<OPTIONSELECTED>
+</OPTIONSELECTED>
+</COLUMN>
+</COLUMNS>
+<RELATIONS_END>
+<RELATION_END ID="1078" />
+<RELATION_END ID="1079" />
+</RELATIONS_END>
+<INDICES>
+<INDEX ID="1614" IndexName="PRIMARY" IndexKind="0" FKRefDef_Obj_id="-1">
+<INDEXCOLUMNS>
+<INDEXCOLUMN idColumn="1541" LengthParam="0" />
+</INDEXCOLUMNS>
+</INDEX>
+</INDICES>
+</TABLE>
+<TABLE ID="1615" SchemaName="C##PJ1" Tablename="GUILDS_MEMO" LogicalTableName="" IsLogicalTableNameView="1" PrevTableName="" XPos="1123" YPos="179" TableType="0" TablePrefix="0" nmTable="0" Temporary="0" UseStandardInserts="0" StandardInserts="" TableOptions="" Comments="" Collapsed="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="21" ConnInfoHashCodeB="" CVINFO0="tblCVpColName" CVINFO1="tblCVDataType" CVINFO2="tblCVNone" CVINFO3="tblCVNone" CVINFO4="tblCVNone" CVINFO5="tblCVNone" CVINFO6="tblCVNone" CVINFO7="tblCVNone" CVINFO8="tblCVNone" CVINFO9="tblCVNone" CVINFO10="tblCVNone" PKName="" >
+<COLUMNS>
+<COLUMN ID="1624" ColName="MEMO_ID" LogicalName="" PrevColName="" Pos="0" idDatatype="NUMBER" DatatypeParams="(0)" Width="0" Prec="0" PrimaryKey="1" NotNull="1" AutoInc="0" Seed="1" Increment="1" IsForeignKey="0" DefaultValue="" Collation="" Check="" Comments="" Length="0" Precision="0" Scale="0" >
+<OPTIONSELECTED>
+</OPTIONSELECTED>
+</COLUMN>
+<COLUMN ID="1625" ColName="WRITER" LogicalName="" PrevColName="" Pos="0" idDatatype="VARCHAR2" DatatypeParams="(30)" Width="0" Prec="0" PrimaryKey="0" NotNull="1" AutoInc="0" Seed="1" Increment="1" IsForeignKey="0" DefaultValue="" Collation="" Check="" Comments="" Length="30" Precision="0" Scale="0" >
+<OPTIONSELECTED>
+</OPTIONSELECTED>
+</COLUMN>
+<COLUMN ID="1626" ColName="WRITER_ID" LogicalName="" PrevColName="" Pos="0" idDatatype="NUMBER" DatatypeParams="(0)" Width="0" Prec="0" PrimaryKey="0" NotNull="1" AutoInc="0" Seed="1" Increment="1" IsForeignKey="0" DefaultValue="" Collation="" Check="" Comments="" Length="0" Precision="0" Scale="0" >
+<OPTIONSELECTED>
+</OPTIONSELECTED>
+</COLUMN>
+<COLUMN ID="1627" ColName="CONTENT" LogicalName="" PrevColName="" Pos="0" idDatatype="VARCHAR2" DatatypeParams="(4000)" Width="0" Prec="0" PrimaryKey="0" NotNull="1" AutoInc="0" Seed="1" Increment="1" IsForeignKey="0" DefaultValue="" Collation="" Check="" Comments="" Length="4000" Precision="0" Scale="0" >
+<OPTIONSELECTED>
+</OPTIONSELECTED>
+</COLUMN>
+<COLUMN ID="1628" ColName="REG_DATE" LogicalName="" PrevColName="" Pos="0" idDatatype="DATE" DatatypeParams="(7)" Width="0" Prec="0" PrimaryKey="0" NotNull="0" AutoInc="0" Seed="1" Increment="1" IsForeignKey="0" DefaultValue="SYSDATE" Collation="" Check="" Comments="" Length="7" Precision="0" Scale="0" >
+<OPTIONSELECTED>
+</OPTIONSELECTED>
+</COLUMN>
+<COLUMN ID="1629" ColName="GUILD_ID" LogicalName="" PrevColName="" Pos="0" idDatatype="NUMBER" DatatypeParams="(0)" Width="0" Prec="0" PrimaryKey="0" NotNull="1" AutoInc="0" Seed="1" Increment="1" IsForeignKey="0" DefaultValue="" Collation="" Check="" Comments="" Length="0" Precision="0" Scale="0" >
+<OPTIONSELECTED>
+</OPTIONSELECTED>
+</COLUMN>
+</COLUMNS>
+<RELATIONS_END>
+<RELATION_END ID="1622" />
+<RELATION_END ID="1623" />
+</RELATIONS_END>
+</TABLE>
+</TABLES>
+<RELATIONS>
+<RELATION ID="1029" RelationName="COMMENTS_GAMES_BBS_NUM_FK" Kind="1" SrcTable="1000" DestTable="1022" FKFields="BBS_NUM=BBS_NUM
+" FKFieldsComments="" relDirection="2" MidOffset="0" OptionalStart="0" OptionalEnd="0" CaptionOffsetX="0" CaptionOffsetY="0" StartIntervalOffsetX="0" StartIntervalOffsetY="0" EndIntervalOffsetX="0" EndIntervalOffsetY="0" CreateRefDef="0" Invisible="0" RefDef="Matching=0
+OnDelete=3
+OnUpdate=3
+" Comments="" FKRefDefIndex_Obj_id="-1" Splitted="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="5" />
+<RELATION ID="1037" RelationName="COMMENTS_GUILDS_BBS_NUM_FK" Kind="1" SrcTable="1011" DestTable="1030" FKFields="BBS_NUM=BBS_NUM
+" FKFieldsComments="" relDirection="2" MidOffset="0" OptionalStart="0" OptionalEnd="0" CaptionOffsetX="0" CaptionOffsetY="0" StartIntervalOffsetX="0" StartIntervalOffsetY="0" EndIntervalOffsetX="0" EndIntervalOffsetY="0" CreateRefDef="0" Invisible="0" RefDef="Matching=0
+OnDelete=3
+OnUpdate=3
+" Comments="" FKRefDefIndex_Obj_id="-1" Splitted="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="7" />
+<RELATION ID="1053" RelationName="GUILDS_GAME_ID_FK" Kind="1" SrcTable="1038" DestTable="1044" FKFields="GAME_ID=GAME_ID
+" FKFieldsComments="" relDirection="2" MidOffset="0" OptionalStart="0" OptionalEnd="0" CaptionOffsetX="0" CaptionOffsetY="0" StartIntervalOffsetX="0" StartIntervalOffsetY="0" EndIntervalOffsetX="0" EndIntervalOffsetY="0" CreateRefDef="0" Invisible="0" RefDef="Matching=0
+OnDelete=3
+OnUpdate=3
+" Comments="" FKRefDefIndex_Obj_id="-1" Splitted="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="10" />
+<RELATION ID="1078" RelationName="MESSAGES_SENDER_ID_FK" Kind="1" SrcTable="1062" DestTable="1071" FKFields="SENDER_ID=MEMBER_IDX
+" FKFieldsComments="" relDirection="2" MidOffset="0" OptionalStart="0" OptionalEnd="0" CaptionOffsetX="0" CaptionOffsetY="0" StartIntervalOffsetX="0" StartIntervalOffsetY="0" EndIntervalOffsetX="0" EndIntervalOffsetY="0" CreateRefDef="0" Invisible="0" RefDef="Matching=0
+OnDelete=3
+OnUpdate=3
+" Comments="" FKRefDefIndex_Obj_id="-1" Splitted="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="15" />
+<RELATION ID="1079" RelationName="MESSAGES_RECEIVER_ID_FK" Kind="1" SrcTable="1062" DestTable="1071" FKFields="RECEIVER_ID=MEMBER_IDX
+" FKFieldsComments="" relDirection="2" MidOffset="0" OptionalStart="0" OptionalEnd="0" CaptionOffsetX="0" CaptionOffsetY="0" StartIntervalOffsetX="0" StartIntervalOffsetY="0" EndIntervalOffsetX="0" EndIntervalOffsetY="0" CreateRefDef="0" Invisible="0" RefDef="Matching=0
+OnDelete=3
+OnUpdate=3
+" Comments="" FKRefDefIndex_Obj_id="-1" Splitted="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="16" />
+<RELATION ID="1119" RelationName="COMMENTS_GUILDS_WRITER_ID_FK" Kind="1" SrcTable="1062" DestTable="1030" FKFields="WRITER_ID=MEMBER_IDX
+" FKFieldsComments="" relDirection="2" MidOffset="134" OptionalStart="0" OptionalEnd="0" CaptionOffsetX="-86" CaptionOffsetY="1" StartIntervalOffsetX="0" StartIntervalOffsetY="0" EndIntervalOffsetX="0" EndIntervalOffsetY="0" CreateRefDef="0" Invisible="0" RefDef="Matching=0
+OnDelete=3
+OnUpdate=3
+" Comments="" FKRefDefIndex_Obj_id="-1" Splitted="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="17" />
+<RELATION ID="1126" RelationName="COMMENTS_GAMES_WRITER_ID_FK" Kind="1" SrcTable="1062" DestTable="1022" FKFields="WRITER_ID=MEMBER_IDX
+" FKFieldsComments="" relDirection="3" MidOffset="121" OptionalStart="0" OptionalEnd="0" CaptionOffsetX="0" CaptionOffsetY="0" StartIntervalOffsetX="0" StartIntervalOffsetY="0" EndIntervalOffsetX="0" EndIntervalOffsetY="0" CreateRefDef="0" Invisible="0" RefDef="Matching=0
+OnDelete=3
+OnUpdate=3
+" Comments="" FKRefDefIndex_Obj_id="-1" Splitted="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="18" />
+<RELATION ID="1137" RelationName="BBS_GUILDS_WRITER_ID_FK" Kind="1" SrcTable="1062" DestTable="1011" FKFields="WRITER_ID=MEMBER_IDX
+" FKFieldsComments="" relDirection="3" MidOffset="83" OptionalStart="0" OptionalEnd="0" CaptionOffsetX="0" CaptionOffsetY="0" StartIntervalOffsetX="0" StartIntervalOffsetY="0" EndIntervalOffsetX="0" EndIntervalOffsetY="0" CreateRefDef="0" Invisible="0" RefDef="Matching=0
+OnDelete=3
+OnUpdate=3
+" Comments="" FKRefDefIndex_Obj_id="-1" Splitted="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="19" />
+<RELATION ID="1138" RelationName="BBS_GUILDS_GUILD_ID_FK" Kind="1" SrcTable="1044" DestTable="1011" FKFields="GUILD_ID=GUILD_ID
+" FKFieldsComments="" relDirection="3" MidOffset="-52" OptionalStart="0" OptionalEnd="0" CaptionOffsetX="0" CaptionOffsetY="0" StartIntervalOffsetX="0" StartIntervalOffsetY="0" EndIntervalOffsetX="0" EndIntervalOffsetY="0" CreateRefDef="0" Invisible="0" RefDef="Matching=0
+OnDelete=3
+OnUpdate=3
+" Comments="" FKRefDefIndex_Obj_id="-1" Splitted="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="20" />
+<RELATION ID="1149" RelationName="BBS_GAMES_GAME_ID_FK" Kind="1" SrcTable="1038" DestTable="1000" FKFields="GAME_ID=GAME_ID
+" FKFieldsComments="" relDirection="3" MidOffset="0" OptionalStart="0" OptionalEnd="0" CaptionOffsetX="0" CaptionOffsetY="0" StartIntervalOffsetX="0" StartIntervalOffsetY="0" EndIntervalOffsetX="0" EndIntervalOffsetY="0" CreateRefDef="0" Invisible="0" RefDef="Matching=0
+OnDelete=3
+OnUpdate=3
+" Comments="" FKRefDefIndex_Obj_id="-1" Splitted="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="21" />
+<RELATION ID="1150" RelationName="BBS_GAMES_WRITER_ID_FK" Kind="1" SrcTable="1062" DestTable="1000" FKFields="WRITER_ID=MEMBER_IDX
+" FKFieldsComments="" relDirection="3" MidOffset="110" OptionalStart="0" OptionalEnd="0" CaptionOffsetX="0" CaptionOffsetY="0" StartIntervalOffsetX="0" StartIntervalOffsetY="0" EndIntervalOffsetX="0" EndIntervalOffsetY="0" CreateRefDef="0" Invisible="0" RefDef="Matching=0
+OnDelete=3
+OnUpdate=3
+" Comments="" FKRefDefIndex_Obj_id="-1" Splitted="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="22" />
+<RELATION ID="1622" RelationName="GUILDS_MEMO_WRITER_ID_FK" Kind="1" SrcTable="1062" DestTable="1615" FKFields="WRITER_ID=MEMBER_IDX
+" FKFieldsComments="" relDirection="2" MidOffset="200" OptionalStart="0" OptionalEnd="0" CaptionOffsetX="0" CaptionOffsetY="0" StartIntervalOffsetX="0" StartIntervalOffsetY="0" EndIntervalOffsetX="0" EndIntervalOffsetY="0" CreateRefDef="0" Invisible="0" RefDef="Matching=0
+OnDelete=3
+OnUpdate=3
+" Comments="" FKRefDefIndex_Obj_id="-1" Splitted="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="22" />
+<RELATION ID="1623" RelationName="GUILDS_MEMO_GUILD_ID_FK" Kind="1" SrcTable="1044" DestTable="1615" FKFields="GUILD_ID=GUILD_ID
+" FKFieldsComments="" relDirection="2" MidOffset="0" OptionalStart="0" OptionalEnd="0" CaptionOffsetX="0" CaptionOffsetY="0" StartIntervalOffsetX="0" StartIntervalOffsetY="0" EndIntervalOffsetX="0" EndIntervalOffsetY="0" CreateRefDef="0" Invisible="0" RefDef="Matching=0
+OnDelete=3
+OnUpdate=3
+" Comments="" FKRefDefIndex_Obj_id="-1" Splitted="0" IsLinkedObject="0" IDLinkedModel="-1" Obj_id_Linked="-1" OrderPos="23" />
+</RELATIONS>
+<NOTES>
+</NOTES>
+<IMAGES>
+</IMAGES>
+</METADATA>
+<QUERYDATA>
+<QUERYRECORDS>
+</QUERYRECORDS>
+</QUERYDATA>
+<LINKEDMODELS>
+</LINKEDMODELS>
+</DBMODEL>
