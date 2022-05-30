@@ -40,7 +40,12 @@
 ## 프로젝트 구현
 
 ### 구현 기능
+<img src="https://user-images.githubusercontent.com/46345154/170910044-d06ba818-a114-49f9-80f8-bd328b0489d2.png" width="50%">&nbsp;&nbsp;◀ 로그인 화면
+<img src="https://user-images.githubusercontent.com/46345154/170911034-76ae76f5-8081-4d0d-89b3-fe87f6638dee.png" width="50%">&nbsp;&nbsp;◀ 회원가입 화면
+
+
 - 회원 가입 및 로그인
+  - 커뮤니티 기능을 고려하여 사이트 메인 화면 접속 시 로그인이 되어 있지 않으면 로그인 화면으로 이동한다.
   - 로그인과 회원 가입, 비밀번호 찾기를 애니메이션을 이용해 한 화면에서 구현하였다.
   - 이메일과 닉네임은 중복 체크가 가능하다.
   - 휴대폰 번호는 숫자를 입력하면 자동으로 하이픈(-)을 추가해 저장한다.
@@ -51,11 +56,14 @@
   - 회원가입 시 작성한 이메일과 휴대폰 번호를 입력받아 인증 키를 보낸 뒤 키를 입력받아 체크하는 방식으로 이루어진다.
 <br><br>
 
+<img src="https://user-images.githubusercontent.com/46345154/170911335-596f2f75-fccb-4148-ae75-a17ddc352e57.png" width="50%">&nbsp;&nbsp;◀ 메인 화면
 - 게임별 게시판
   - **플랫폼**(Steam, Nintendo Switch, PlayStation, Xbox)별로 분류된 게임들은 각각 게시판을 하나씩 가지고 있다.
   - 게시판은 검색을 통해 진입이 가능하며, **즐겨찾기**에 등록해 메인 화면이나 프로필에서 쉽게 접근이 가능하다.
 <br><br>
 
+<img src="https://user-images.githubusercontent.com/46345154/170911588-dd8de7c9-e3c0-4581-8173-e2a2cbdcc2b1.png" width="50%">&nbsp;&nbsp;◀ 모든 게임 보기
+<img src="https://user-images.githubusercontent.com/46345154/170911735-70b7ac75-bff5-4041-b2ed-8f5d3898244a.png" width="50%">&nbsp;&nbsp;◀ 게임 검색
 - 게시판 검색
   - **모든 게임 보기** 버튼을 누르면 등록된 모든 게임 게시판의 목록을 볼 수 있다.
   - 목록에서 플랫폼 이름을 눌러 목록을 접었다 펼 수 있게 구현하였다.
