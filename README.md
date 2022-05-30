@@ -20,6 +20,14 @@
 
 <br>
 
+### 개발 기간
+2022.03.07 ~ 2022.03.28
+<br><br>
+
+## 개발 인원
+1명
+<br><br>
+
 ### 개발 환경
 <img height="24px" src="https://img.shields.io/badge/JDK 1.8-007396?style=flat-square&logo=Java&logoColor=white"/> <img height="24px" src="https://img.shields.io/badge/Oracle Database 18c XE-F80000?style=flat-square&logo=Oracle&logoColor=white"/> <img height="24px" src="https://img.shields.io/badge/Apache Tomcat v9.0-F8DC75?style=flat-square&logo=Apache Tomcat&logoColor=black"/>
 <br>
